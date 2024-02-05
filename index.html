@@ -1,0 +1,29 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=820">
+	<title>Circuit Simulator Applet</title>
+</head>
+
+<body>
+	<center><iframe src="https://www.falstad.com/circuit/circuitjs.html" width="90%" height="90%"></iframe></center>
+	<Br>
+	<center>
+		<button type="button" class="btn btn-primary"><a href="https://dcaclab.com/users/28506/profile">Md. Anisur
+				Rahman Likhon</a></button>
+		<button type="button" class="btn btn-primary"><a
+				href="https://ca782906-6155-4b63-95ff-5e70f2f84cd7-00-zbuf516yiy9j.global.replit.dev/">AVR8 Circuit Simulator</a></button>
+	</center>
+
+
+	<script>
+		if (window.location.href.indexOf("circuit/#") > 0) {
+			var ix = window.location.href.indexOf("circuit/#");
+			window.location.assign(window.location.href.slice(0, ix) + "circuit/circuitjs.html?cct=" + window.location.href.slice(ix + 9));
+		}
+	</script>
+
+</body>
+
+</html>
